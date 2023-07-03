@@ -17,7 +17,7 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        <a href=''>readme</a>
+        <a href='https://github.com/gabrielyoon7/x-state' target='_blank'>Learn x-state</a>
       </p>
     </>
   )

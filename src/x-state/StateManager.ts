@@ -1,4 +1,4 @@
-import {DataObserver} from "./types.ts";
+import { DataObserver } from "./types.ts";
 
 class StateManager<T> implements DataObserver<T> {
   public state: T;
@@ -9,11 +9,11 @@ class StateManager<T> implements DataObserver<T> {
   }
 
   setState = (newState: T) => {
-    this.state = newState; // 실험결과 반드시 재할당 해야 리액트에서 변화를 감지함 ==> Object.is() 연산 동작
+    this.state = newState;
     this.emitChange();
   };
 
-  getState = () => { // 값 형태를 반드시 유지해야 오류가 없음
+  getState = () => {
     return this.state;
   };
 
