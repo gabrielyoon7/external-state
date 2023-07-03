@@ -3,7 +3,7 @@ import { countStore } from "./countStore";
 import { useState } from "react"
 
 function CountInput() {
-  const [count, setCount] = useExternalState(countStore); // Re-rendering induced by count
+  const [count, setCount] = useExternalState(countStore); // Re-rendering induced by count state
   const [value, setValue] = useState(0);
 
   return (
