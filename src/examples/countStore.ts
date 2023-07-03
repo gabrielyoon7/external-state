@@ -1,7 +1,7 @@
 import { store } from "../x-state";
 import { fetchCount } from "./counterAPI";
 
-export const countStore = store(0);
+export const countStore = store<number>(0);
 
 export const countActions = {
   increase: () => {
