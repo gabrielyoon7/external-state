@@ -4,7 +4,7 @@ import { countStore } from "./countStore";
 function CountValue() {
   const count = useExternalValue(countStore);
   return (
-    <div style={{ fontSize: '20px', fontWeight: 700 }}>
+    <div style={{ fontSize: '25px', fontWeight: 500, marginBottom: '20px' }}>
       {`count is ${count}`}
     </div>
   )

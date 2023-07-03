@@ -1,4 +1,6 @@
+import CountControllers from "./CountControllers";
 import CountInput from "./CountInput";
+import CountReset from "./CountReset";
 import CountValue from "./CountValue";
 
 function Count() {
@@ -7,6 +9,8 @@ function Count() {
     <div>
       <CountValue />
       <CountInput />
+      <CountControllers />
+      <CountReset />
     </div>
   )
 }
