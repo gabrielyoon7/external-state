@@ -1,17 +1,13 @@
 import './App.css'
-import { useExternalState } from './x-state'
-import { countStore } from './store/countStore'
+import Count from './examples/Count'
 
 function App() {
-  const [count, setCount] = useExternalState(countStore);
 
   return (
     <>
       <h1>x-state</h1>
       <div className="card">
-        <button onClick={() => setCount(count + 1)}>
-          count is {count}
-        </button>
+        <Count />
         <p>
           Easy and Lightweight State Management for React
         </p>
