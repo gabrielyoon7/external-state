@@ -1,13 +1,28 @@
 {
   "name": "x-state",
-  "private": true,
+  "private": false,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "browser": "./browser/specific/main.js",
+  "description": "Easy and Lightweight State Management for React",
+  "keywords": ["react","state management","react state", "react global state management"],
+  "author": {
+    "name": "Gabriel Ju Hyun, Yoon",
+    "email": "gabrielyoon7@gmail.com",
+    "url": "https://github.com/gabrielyoon7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gabrielyoon7/x-state.git"
+  },
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepare": "rm -rf dist && mkdir dist && tsc"
   },
   "dependencies": {
     "react": "^18.2.0",

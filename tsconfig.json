@@ -20,6 +20,8 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
+  "include": [
+    "src/lib/x-state"
+  ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
