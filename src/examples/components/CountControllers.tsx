@@ -1,4 +1,4 @@
-import { countActions } from "../countStore.ts";
+import { countActions } from "../countStore";
 
 /**
  * actions

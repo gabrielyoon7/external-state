@@ -1,4 +1,4 @@
-import { DataObserver } from "./types.ts";
+import { DataObserver } from "./types";
 
 class StateManager<T> implements DataObserver<T> {
   public state: T;

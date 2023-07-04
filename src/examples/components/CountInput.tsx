@@ -1,5 +1,5 @@
 import { useExternalState } from "../../lib/external-state";
-import { countStore } from "../countStore.ts";
+import { countStore } from "../countStore";
 import { useState } from "react"
 
 /**
