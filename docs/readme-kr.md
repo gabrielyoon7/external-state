@@ -71,7 +71,7 @@ export default Count;
 ```
 
 4. 상태 관리 훅 사용하기 : useExternalValue
-- `useExternalValue()`는 상태를 조회 하는 함수입니다.
+- `useExternalValue()`는 상태를 구독 하는 함수입니다.
 - recoil의 useRecoilValue와 동일한 사용 방법을 가지고 있습니다.
 
 ```tsx
