@@ -2,6 +2,17 @@
 
 external-state는 React가 아닌 환경에서도 상태 접근과 조작을 쉽게할 수 있도록 지원합니다.
 
+### 설치 방법
+```
+npm install external-store
+```
+또는
+```
+yarn add external-store
+```
+
+### 사용법
+
 1. 초기 상태 값 생성하기
 
 초기 상태 값은 `store()`로 생성합니다.
