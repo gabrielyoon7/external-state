@@ -1,36 +1,35 @@
 # external-state
-external-state is an easy and lightweight React state management library.
 
-[한국어](https://github.com/gabrielyoon7/external-state/blob/main/docs/readme-kr.md)
+external-state는 쉽고 가벼운 React 상태관리 라이브러리입니다.
 
-### Installation
-
+### 설치 방법
 ```
 npm install external-store
 ```
-
-or
-
+또는
 ```
 yarn add external-store
 ```
 
-### Usage
-1. Creating initial state value
-- The initial state value is created using the `store()` function.
+### 사용법
+
+1. 초기 상태 값 생성하기
+
+- 초기 상태 값은 `store()`로 생성합니다.
 
 ```tsx
+
 import { store } from "external-state";
 
 export const countStore = store<number>(0);
 ```
 
-
-2. Using state management hook: useExternalState
-- `useExternalState()` has a similar usage pattern to the react `useState()` hook.
-- It has the same usage pattern as recoil's useRecoilState.
+2. 상태 관리 훅 사용하기 : useExternalState
+- `useExternalState()` 는 일반적인 `useState()` 훅과 사용법이 비슷합니다.
+- recoil의 useRecoilState와 동일한 사용 방법을 가지고 있습니다.
 
 ```tsx
+
 import { useExternalState } from "external-state";
 
 function Count() {
@@ -49,9 +48,9 @@ function Count() {
 export default Count;
 ```
 
-3. Using state management hook: useSetExternalState
-- `useSetExternalState()` is a function used to update the state.
-- It has the same usage pattern as recoil's useSetRecoilState.
+3. 상태 관리 훅 사용하기 : useSetExternalState
+- `useSetExternalState()`는 상태를 업데이트 하는 함수입니다.
+- recoil의 useSetRecoilState와 동일한 사용 방법을 가지고 있습니다.
 
 ```tsx
 import { useSetExternalState } from "external-state";
@@ -71,10 +70,9 @@ function Count() {
 export default Count;
 ```
 
-4. Using state management hook: useExternalValue
-
-- `useExternalValue()` is a function used to subscribe the state value.
-- It has the same usage pattern as recoil's useRecoilValue.
+4. 상태 관리 훅 사용하기 : useExternalValue
+- `useExternalValue()`는 상태를 구독 하는 함수입니다.
+- recoil의 useRecoilValue와 동일한 사용 방법을 가지고 있습니다.
 
 ```tsx
 import { useExternalValue } from "external-state";
@@ -92,14 +90,13 @@ function Count() {
 export default Count;
 ```
 
-5. Accessing/Modifying the store outside of React
-
-- Once a store is created, you can use the `.getState()` and `.setState()` methods.
-- The `.getState()` method reads the latest state value at the time of invocation.
-- The `.setState()` method updates the state value.
-- All of this can be done directly in a vanilla environment, and even if the state is modified outside of React, all components subscribing to the store through the hook will be accurately re-rendered.
-- It is also possible to use `async/await`.
-- You can separate the logic for better reusability, as shown in the example below:
+5. react가 아닌 환경에서 store를 조회/조작하기
+- 한번 생성한 store는 `.getState()`메서드와 `.setState()`메서드를 사용할 수 있습니다.
+- `.getState()`메서드는 호출한 시점의 최신 상태 값을 읽어옵니다.
+- `.setState()`메서드는 상태 값을 업데이트 합니다.
+- 이 모든 과정은 vanilla 환경에서 직접 조작이 가능하며, 리액트 바깥에서 상태를 수정하더라도 훅을 통해 store를 구독중인 모든 컴포넌트들을 정확하게 재 렌더링합니다.
+- `async/await` 도 사용이 가능합니다.
+- 아래와 같은 예시처럼 로직을 분리하여 재사용성을 높일 수 있습니다.
 
 ```tsx
 export const countActions = {
