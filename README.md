@@ -1,6 +1,8 @@
 # external-state
 external-state is an easy and lightweight React state management library.
 
+[한국어](https://github.com/gabrielyoon7/external-state/blob/main/docs/readme-kr.md)
+
 ### Installation
 
 ```
