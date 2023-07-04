@@ -19,7 +19,7 @@ yarn add external-store
 1. Creating initial state value
 - The initial state value is created using the `store()` function.
 
-```
+```tsx
 import { store } from "external-state";
 
 export const countStore = store<number>(0);
@@ -30,7 +30,7 @@ export const countStore = store<number>(0);
 - `useExternalState()` has a similar usage pattern to the react `useState()` hook.
 - It has the same usage pattern as recoil's useRecoilState.
 
-```
+```tsx
 import { useExternalState } from "external-state";
 
 function Count() {
@@ -53,7 +53,7 @@ export default Count;
 - `useSetExternalState()` is a function used to update the state.
 - It has the same usage pattern as recoil's useSetRecoilState.
 
-```
+```tsx
 import { useSetExternalState } from "external-state";
 
 function Count() {
@@ -76,7 +76,7 @@ export default Count;
 - `useExternalValue()` is a function used to subscribe the state value.
 - It has the same usage pattern as recoil's useRecoilValue.
 
-```
+```tsx
 import { useExternalValue } from "external-state";
 
 function Count() {
@@ -101,7 +101,7 @@ export default Count;
 - It is also possible to use `async/await`.
 - You can separate the logic for better reusability, as shown in the example below:
 
-```
+```tsx
 export const countActions = {
   increase: () => {
     const prevCount = countStore.getState();
