@@ -15,7 +15,7 @@ yarn add external-store
 
 1. 초기 상태 값 생성하기
 
-초기 상태 값은 `store()`로 생성합니다.
+- 초기 상태 값은 `store()`로 생성합니다.
 
 ```tsx
 
