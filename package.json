@@ -1,12 +1,17 @@
 {
   "name": "external-state",
-  "version": "0.1.0",
+  "version": "0.0.12",
   "private": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "browser": "./browser/specific/main.js",
   "description": "Easy and Lightweight State Management for React",
-  "keywords": ["react","state management","react state", "react global state management"],
+  "keywords": [
+    "react",
+    "state management",
+    "react state",
+    "react global state management"
+  ],
   "author": {
     "name": "Gabriel Ju Hyun, Yoon",
     "email": "gabrielyoon7@gmail.com",
@@ -14,7 +19,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/gabrielyoon7/external-state.git",
+    "url": "git://github.com/gabrielyoon7/external-state.git"
+  },
+  "type": "module",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -54,4 +61,4 @@
       "last 1 safari version"
     ]
   }
-}}
+}
