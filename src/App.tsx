@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <h1>x-state</h1>
+      <h1>external-state</h1>
       <p>
         Easy and Lightweight State Management for React
       </p>
@@ -15,7 +15,7 @@ function App() {
         <hr />
       </div>
       <p className="read-the-docs">
-        <a href='https://github.com/gabrielyoon7/x-state' target='_blank'>Learn x-state</a>
+        <a href='https://github.com/gabrielyoon7/external-state' target='_blank'>Learn external-state</a>
       </p>
     </>
   )

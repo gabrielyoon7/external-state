@@ -1,5 +1,5 @@
 {
-  "name": "x-state",
+  "name": "external-state",
   "private": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/gabrielyoon7/x-state.git"
+    "url": "git://github.com/gabrielyoon7/external-state.git"
   },
   "version": "0.0.0",
   "type": "module",

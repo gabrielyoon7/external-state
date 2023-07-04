@@ -21,7 +21,7 @@
     "noFallthroughCasesInSwitch": true
   },
   "include": [
-    "src/lib/x-state"
+    "src/lib/external-state"
   ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

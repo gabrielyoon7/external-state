@@ -1,4 +1,4 @@
-import { useExternalValue } from "../../lib/x-state";
+import { useExternalValue } from "../../lib/external-state";
 import { countStore } from "../countStore.ts";
 
 /**
