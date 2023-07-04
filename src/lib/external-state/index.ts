@@ -3,4 +3,4 @@ export {
   useSetExternalState,
   useExternalValue,
   store
-} from './external-state';
+} from './tools';

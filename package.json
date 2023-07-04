@@ -1,6 +1,6 @@
 {
   "name": "external-state",
-  "version": "0.1.0",
+  "version": "0.1.14",
   "private": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -21,7 +21,7 @@
     "type": "git",
     "url": "git://github.com/gabrielyoon7/external-state.git"
   },
-  "type": "module",
+  "type": "commonjs",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
