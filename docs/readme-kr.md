@@ -1,6 +1,6 @@
 # external-state
 
-external-state는 React가 아닌 환경에서도 상태 접근과 조작을 쉽게할 수 있도록 지원합니다.
+external-state는 React가 아닌 환경에서도 React에 상태 접근과 조작을 쉽게할 수 있도록 지원합니다.
 
 ### 설치 방법
 ```
