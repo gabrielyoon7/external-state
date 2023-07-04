@@ -1,4 +1,4 @@
-import { store } from "../x-state";
+import { store } from "../lib/x-state";
 import { fetchCount } from "./counterAPI";
 
 export const countStore = store<number>(0);
