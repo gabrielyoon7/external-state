@@ -1,7 +1,7 @@
-import CountControllers from "./CountControllers";
-import CountInput from "./CountInput";
-import CountReset from "./CountReset";
-import CountValue from "./CountValue";
+import CountControllers from "./components/CountControllers.tsx";
+import CountInput from "./components/CountInput.tsx";
+import CountReset from "./components/CountReset.tsx";
+import CountValue from "./components/CountValue.tsx";
 
 function Count() {
 

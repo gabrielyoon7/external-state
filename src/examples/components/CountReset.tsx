@@ -1,6 +1,9 @@
-import { useSetExternalState } from "../x-state";
-import { countStore } from "./countStore";
+import { useSetExternalState } from "../../x-state";
+import { countStore } from "../countStore.ts";
 
+/**
+ * useSetExternalState
+ */
 function CountReset() {
   const setCount = useSetExternalState(countStore);
   return (

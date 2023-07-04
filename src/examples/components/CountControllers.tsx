@@ -1,5 +1,8 @@
-import { countActions } from "./countStore";
+import { countActions } from "../countStore.ts";
 
+/**
+ * actions
+ */
 function CountControllers() {
   return (
     <div style={{ display: 'flex', gap: '5px', justifyContent: 'center', margin: '10px 0px 10px 0px' }}>

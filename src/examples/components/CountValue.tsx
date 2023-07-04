@@ -1,6 +1,9 @@
-import { useExternalValue } from "../x-state";
-import { countStore } from "./countStore";
+import { useExternalValue } from "../../x-state";
+import { countStore } from "../countStore.ts";
 
+/**
+ * useExternalValue
+ */
 function CountValue() {
   const count = useExternalValue(countStore);
   return (

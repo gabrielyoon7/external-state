@@ -1,7 +1,10 @@
-import { useExternalState } from "../x-state";
-import { countStore } from "./countStore";
+import { useExternalState } from "../../x-state";
+import { countStore } from "../countStore.ts";
 import { useState } from "react"
 
+/**
+ * useExternalState
+ */
 function CountInput() {
   const [count, setCount] = useExternalState(countStore); // Re-rendering induced by count state
   const [value, setValue] = useState(0);
