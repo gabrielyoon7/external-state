@@ -20,10 +20,7 @@
     "noEmit": false, // npm
     "declaration": true, // npm
     "outDir": "./dist", // npm
-    "include": ["./src/lib/**/*.tsx", "./src/lib/**/*.ts"], // npm
     "jsx": "react-jsx"
   },
-  "include": [
-    "src"
-  ]
+  "include": ["./src/lib/**/*.tsx", "./src/lib/**/*.ts"], // npm
 }
