@@ -9,7 +9,7 @@ export default defineConfig({
   base: "/external-state/",
   build: {
     lib: {
-      entry: path.resolve(__dirname, "src/lib/external-state/index.ts"),
+      entry: path.resolve(__dirname, "src/lib/index.tsx"),
       name: "index",
       fileName: "index",
     },

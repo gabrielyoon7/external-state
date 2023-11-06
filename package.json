@@ -1,6 +1,6 @@
 {
   "name": "external-state",
-  "version": "0.1.18",
+  "version": "0.1.20",
   "private": false,
   "description": "Easy and Lightweight State Management for React",
   "type": "module",
