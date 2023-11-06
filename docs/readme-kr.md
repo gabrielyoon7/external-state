@@ -60,7 +60,7 @@ function Count() {
 
   return (
     <div>
-      <button onClick={() => setCount(count + 1)}>
+      <button onClick={() => setCount((count) => count + 1)}>
         increase
       </button>
     </div>
