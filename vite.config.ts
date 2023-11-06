@@ -26,7 +26,7 @@ const buildOptions = isProduction && {
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), dts()],
+  plugins: [react(), isProduction && dts()],
   base: "/external-state/",
   build: buildOptions,
 })
