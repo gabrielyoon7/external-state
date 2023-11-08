@@ -6,13 +6,13 @@ external-state is an easy and lightweight React state management library.
 ### Installation
 
 ```
-npm install external-store
+npm install external-state
 ```
 
 or
 
 ```
-yarn add external-store
+yarn add external-state
 ```
 
 ### Usage

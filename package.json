@@ -1,7 +1,7 @@
 {
   "name": "external-state",
   "license": "MIT",
-  "version": "0.1.21",
+  "version": "0.1.22",
   "private": false,
   "description": "Easy and Lightweight State Management for React",
   "type": "module",

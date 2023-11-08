@@ -4,11 +4,11 @@ external-state는 쉽고 가벼운 React 상태관리 라이브러리입니다.
 
 ### 설치 방법
 ```
-npm install external-store
+npm install external-state
 ```
 또는
 ```
-yarn add external-store
+yarn add external-state
 ```
 
 ### 사용법
